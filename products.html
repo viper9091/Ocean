@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image" href="images/ocean_circle.png"/>
+  <title>عرض المنتجات</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+
+body {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  direction: rtl;
+}
+
+        header {
+      background-color: #ff3c00;
+      color: #fff;
+      padding: 20px;
+      margin-top: 40px;
+      height: 70px;
+      text-align: center;
+    }
+    nav {
+      background-color: rgb(48, 45, 45);
+      overflow: hidden;
+    }
+
+    nav a {
+      float: right;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-content {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  color: #e91e63;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+  background-color: #0d8ddb;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+@media (max-width: 600px ) {
+  header {
+    font-size: 20px;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+
+
+  
+   <nav> 
+
+  <a href="index.html">الرئيسية</a>
+  <a href="products.html">المنتجات</a>
+  <a href="contactUs.html">تواصل معنا</a>
+  
+  <header>
+    <h2>لمحة عن المنتجات التي نوفرها لك في التطبيق</h2>
+</header>
+</nav>
+
+
+
+  <section class="container">
+    <div class="card">
+      <img src="images/gaming-computer-case-isolated-png.webp" alt="منتج" >
+      <div class="product-content">
+            <div class="product-title">Gaming PC Case</div>
+        <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/GIGABYTE Unveils GeForce® GTX 1650 series graphics card.png" alt="منتج">
+      <div class="product-content">
+            <div class="product-title">GIGABYTE Unveils GeForce® GTX 1650 series</div>
+        <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/gaming-computer-png-dm7u0gjcvfd3t0sk.png" alt="منتج">
+      <div class="product-content">
+            <div class="product-title">Gaming PC Case</div>
+        <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+  </section>
+
+ <section class="container">
+    <div class="card">
+      <img src="images/182-1821662_gaming-keyboard-png-hexgears-gemini-dusk-clipart.png" alt="منتج 1">
+      <div class="product-content">
+        <div class="product-title">Gaming Keyboard Hexgears</div>
+      <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/1STPLAYER-MIKU-MI8-GAMING-CASE-WITH-THEMPERED-GLASS-FRONT-AND-SIDE-WITH-USB-C-ATX-BLACK-12-MONTHS-WARRANTY-PC-CASE.webp" alt="منتج 2">
+      <div class="product-content">
+        <div class="product-title">Gaming Case With Thempered Glass</div>
+      <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/202405090020414.png" alt="منتج 3">
+      <div class="product-content">
+        <div class="product-title">Gaming Case</div>
+  <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+  </section>
+
+ <section class="container">
+    <div class="card">
+      <img src="images/RTX4070TiSuperGamingXSlim_1.webp" alt="منتج 1">
+      <div class="product-content">
+        <div class="product-title">Nvidia RTX 4070 Ti Super Gmaing</div>
+ <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/61bwFPVdIoL._SL1200.webp" alt="منتج 2">
+      <div class="product-content">
+        <div class="product-title">RGB Fan</div>
+ <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/77.webp" alt="منتج 3">
+      <div class="product-content">
+        <div class="product-title">Gaming Case With RGB Light</div>
+       <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+  </section>
+
+ <section class="container">
+    <div class="card">
+      <img src="images/AA-222-FIVE-SIDE-RING-STILL-RGB-CASE-FAN.png" alt="منتج 1">
+      <div class="product-content">
+        <div class="product-title">RGB Case From AA-222</div>
+  <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/casecomputerpng.parspng.com_.png" alt="منتج 2">
+      <div class="product-content">
+        <div class="product-title">Gaming Case With RGB Light</div>
+      <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/black-gaming-mouse-with-rgb-lighting-isolated-on-transparent-background-free-png.webp" alt="منتج 3">
+      <div class="product-content">
+        <div class="product-title">Gamig Mouse Wuth RGB Light</div>
+      <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+  </section>
+
+
+ <section class="container">
+    <div class="card">
+      <img src="images/darkflash-dr12-pro-3in1-2.webp" alt="منتج 1">
+      <div class="product-content">
+        <div class="product-title">RGB Fan From Dark Flash</div>
+  <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/LegendChromaM990-RGBGamingMouse_2.webp" alt="منتج 2">
+      <div class="product-content">
+        <div class="product-title">Gaming Mouse With RGB Light</div>
+      <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/geforce-rtx-2080-technical-photography-angled-003.png" alt="منتج 3">
+      <div class="product-content">
+        <div class="product-title">GeForce® RTX 2080</div>
+ <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+  </section>
+
+   <section class="container">
+    <div class="card">
+      <img src="images/GeForce-RTX-4080-SUPER-WINDFORCE-V2-16G-01.webp" alt="منتج 1">
+      <div class="product-content">
+        <div class="product-title">GeForce RTX 4080-SUPER</div>
+     <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/GIGABYTE Unveils GeForce® GTX 1650 series graphics card.png" alt="منتج 2">
+      <div class="product-content">
+        <div class="product-title">GIGABYTE Unveils GeForce® GTX 1650 series</div>
+  <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Hyperx Quadcast S Rgb Microphone  Musical Instruments Electronics.png" alt="منتج 3">
+      <div class="product-content">
+        <div class="product-title">Hyperx Quadcast S RGB Microphone</div>
+ <a href="contactUs.html">إنتقل للتطبيق</a>
+      </div>
+    </div>
+  </section>
+
+
+  <br>
+<br>
+<br>
+<br>
+
+<footer>
+  <p>©2025 جميع الحقوق محفوظة.OCEAN</p>
+</footer>
+
+</body>
+</html>
